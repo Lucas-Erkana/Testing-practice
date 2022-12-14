@@ -1,7 +1,7 @@
 const capitalize = (txt) => {
     let arr = txt.split('');
-    let upperCaseArr = arr.map((item) => item.toUpperCase());
-    return upperCaseArr.join('');
+    arr[0] = arr[0].toUpperCase();
+    return arr.join('');
   };
   
   module.exports = capitalize;
